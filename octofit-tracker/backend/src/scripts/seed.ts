@@ -1,3 +1,5 @@
+// Seed command: npm run seed
+// Description: populates the octofit_db with demo users, teams, activities, leaderboard data, and workout suggestions.
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import { connectDatabase } from '../config/database.js';
